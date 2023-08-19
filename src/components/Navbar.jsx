@@ -5,7 +5,7 @@ import Logo from '../assets/images/logo.png'
 const Navbar = () => {
   return (
     <nav className="bg-white border-gray-200">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
+      <div className="w-screen flex flex-wrap items-center justify-center p-2 gap-[65rem]">
         <Link to="/" className="flex items-center">
             <img src={Logo} className="h-36" alt="Kyle Logo" />
         </Link>
