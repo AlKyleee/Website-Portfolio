@@ -13,9 +13,7 @@ const Resume = () => {
     transition={{ duration: 1 }}
     >
       <div className="flex flex-col w-1/2 justify-center">
-        <HeaderTitle>
-          Resume
-        </HeaderTitle>
+        <HeaderTitle title="Resume" />
         <div className="flex items-center justify-between mt-20">
           <p className="text-2xl font-medium text-tertiary">Experience</p>
           <a href={CV} target="_blank" className='flex justify-center rounded-full bg-tertiary text-white font-semibold py-2 w-36 text-sm ease-in duration-300 border-2 border-tertiary hover:text-tertiary hover:bg-primary hover:border-sky-800'>DOWNLOAD CV</a>
