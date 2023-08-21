@@ -1,12 +1,12 @@
 import React from 'react'
-import Card from '../components/Card'
+import AboutCard from '../components/AboutCard'
 
 const About = () => {
   return (
-    <div id='about' className='flex h-[85vh] w-full'>
-      <Card />
+    <section id='about' className='flex h-[85vh] w-full'>
+      <AboutCard />
       <span className='w-2/5 bg-primary'></span>
-    </div>
+    </section>
   )
 }
 

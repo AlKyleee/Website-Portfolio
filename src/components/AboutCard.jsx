@@ -19,10 +19,10 @@ function getTime() {
     }
 }
 
-const Card = () => {
+const AboutCard = () => {
     return (
         <div className='flex absolute w-full h-3/4 justify-center items-center z-10'>
-            <div className='flex flex-col drop-shadow-lg shadow-[0_10px_16px_0_rgba(0,0,0,0.2),_0_6px_20px_0_rgba(0,0,0,0.19)]'>
+            <div className='flex flex-col drop-shadow-md shadow-[0_10px_16px_0_rgba(0,0,0,0.2),_0_6px_20px_0_rgba(0,0,0,0.19)]'>
                 <div className='bg-secondary px-20 py-10 text-center flex flex-col items-center'>
                     <img src={Image} alt="" className='object-cover h-52 w-52 rounded-full' />
                     <p className='pt-5 text-3xl font-semibold text-tertiary'>Alejandro Kyle J.</p><p className='pb-5 text-3xl font-semibold text-tertiary'>Guevarra</p>
@@ -50,4 +50,4 @@ const Card = () => {
     )
 }
 
-export default Card
+export default AboutCard
