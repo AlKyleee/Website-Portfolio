@@ -2,15 +2,15 @@ import React from 'react'
 import CV from '../assets/files/Guevarra_CV.pdf'
 import ResumeCard from '../components/ResumeCard'
 import Skillset from '../components/Skillset'
+import HeaderTitle from '../components/HeaderTitle'
 
 const Resume = () => {
   return (
     <section id='resume' className='flex h-full w-full py-20 justify-center items-center bg-primary'>
       <div className="flex flex-col w-1/2 justify-center">
-        <div className="flex justify-center items-center gap-2">
-          <span className='h-5 w-5 mt-1 bg-quaternary'></span>
-          <p className='text-4xl font-semibold text-tertiary'>Resume</p>
-        </div>
+        <HeaderTitle>
+          Resume
+        </HeaderTitle>
         <div className="flex items-center justify-between mt-20">
           <p className="text-2xl font-medium text-tertiary">Experience</p>
           <a href={CV} target="_blank" className='flex justify-center rounded-full bg-tertiary text-white font-semibold py-2 w-36 text-sm ease-in duration-300 border-2 border-tertiary hover:text-tertiary hover:bg-primary hover:border-sky-800'>DOWNLOAD CV</a>
