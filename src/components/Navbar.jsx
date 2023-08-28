@@ -24,7 +24,7 @@ const Navbar = () => {
               <Link to="/resume" className="block py-2 pl-3 pr-4 text-tertiary font-thin">RESUME</Link>
             </li>
             <li>
-              <Link to="/projects" className="block py-2 pl-3 pr-4 text-tertiary font-thin">PROJECTS</Link>
+              <Link to="/portfolio" className="block py-2 pl-3 pr-4 text-tertiary font-thin">PORTFOLIO</Link>
             </li>
             <li>
               <Link to="/contact" className="block py-2 pl-3 pr-4 text-tertiary font-thin">CONTACT</Link>
