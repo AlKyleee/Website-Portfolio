@@ -8,6 +8,7 @@ export default {
         "secondary": "#98bcea",
         "tertiary": "#281a39",
         "quaternary": "#2061b7",
+        "portfolio": "#150050",
       },
     },
   },
