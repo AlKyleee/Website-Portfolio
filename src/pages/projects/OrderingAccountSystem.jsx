@@ -4,8 +4,8 @@ import Img from '../../assets/images/OrderingAccountSystem.jpg'
 
 const OrderingAccountSystem = () => {
   return (
-    <Project title="Ordering and Account Management System" role="Full Stack Developer" year="2022" link="https://github.com/AlKyleee/ElectiveGroup2" image={Img}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eos voluptate quaerat mollitia consectetur! Accusamus, sunt ad illo sapiente blanditiis odio pariatur natus libero eum ipsam unde ratione id? Vitae.
+    <Project title="Ordering and Account Management System" role="Backend Developer" year="2022" link="https://github.com/AlKyleee/ElectiveGroup2" image={Img}>
+      Created an ordering and account management system designed to look like a fast-food chain. The application was built using PHP and Tailwind.
     </Project>
   )
 }

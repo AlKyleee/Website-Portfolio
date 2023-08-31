@@ -4,8 +4,8 @@ import Img from '../../assets/images/CakesByLis.jpg'
 
 const CakesByLis = () => {
     return (
-        <Project title="Cakes by LIS Inventory and Ordering System" role="Frontend Developer" year="2022" image={Img} link="https://github.com/BKryth/CakesByLis">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore perspiciatis possimus sit accusantium id iure harum cumque, velit tempore, officia explicabo voluptates a hic. Eaque tempora quisquam necessitatibus quibusdam voluptates?
+        <Project title="Cakes by LIS Inventory and Ordering System" role="Backend Developer" year="2022" image={Img} link="https://github.com/BKryth/CakesByLis">
+            Created an inventory and ordering system for Cakes by LIS. The application was built using vanilla HTML, CSS, and JavaScript.
         </Project>
     )
 }

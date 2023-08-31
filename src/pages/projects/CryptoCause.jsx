@@ -5,7 +5,7 @@ import Img from '../../assets/images/CryptoCause.jpg'
 const CryptoCause = () => {
   return (
     <Project title="CryptoCause" role="Frontend Developer" year="2023" image={Img} link="https://github.com/gnrflcthm/smart-contract">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias exercitationem consequatur sint rerum tempora quaerat fugiat quisquam deserunt quae, ipsam a labore maxime ipsum autem accusantium nulla tempore laborum. Expedita.
+      Created a decentralized application that allows users to donate to a charity of their choice using cryptocurrency. The application was built using ReactJS and Solidity.
     </Project>
   )
 }

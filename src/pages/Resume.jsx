@@ -18,12 +18,12 @@ const Resume = () => {
           <p className="text-2xl font-medium text-tertiary">Education</p>
           <a href={CV} target="_blank" className='flex justify-center rounded-full bg-tertiary text-white font-semibold py-2 w-36 text-sm ease-in duration-300 border-2 border-tertiary hover:text-tertiary hover:bg-primary hover:border-sky-800'>DOWNLOAD CV</a>
         </div>
-        <ResumeCard duration='2019 - 2023' positionName='University of Santo Tomas' companyDegree='Bachelor of Science in Information Technology Major in Web and Mobile Development' location='Manila, Philippines'>
-          <p className='text-lg font-semibold text-tertiary'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum magni, totam quidem aperiam delectus est earum accusantium quae voluptatibus, quia unde velit! Natus sapiente magni sit minima atque vero hic?</p>
+        <ResumeCard duration='2019 - 2023' positionName='University of Santo Tomas' companyDegree='Bachelor of Science in Information Technology' location='Manila, Philippines'>
+          <p className='text-lg font-semibold text-tertiary'>Studied Bachelor of Science in Information Technology for four years at the University of Santo Tomas. Graduated a Cum Laude and achieved multiple Dean's Lister.</p>
         </ResumeCard>
         <p className="mt-20 text-2xl font-medium">Experience</p>
         <ResumeCard duration='2023 - 2023' positionName='Web Developer (Intern)' companyDegree='Syntactics Inc.' location='Cagayan de Oro, Philippines'>
-          <p className='text-lg font-semibold text-tertiary'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, fugiat molestias possimus iure, officiis eum ipsa dolores fuga labore voluptatem maxime error soluta quam ab itaque reprehenderit quo consequuntur eos!</p>
+          <p className='text-lg font-semibold text-tertiary'>Interned as a Web Developer at Syntactics for almost half a year. Used WordPress to create and update websites for multiple clients.</p>
         </ResumeCard>
         <p className="mt-20 text-2xl font-medium">Skills</p>
         <Skillset />
