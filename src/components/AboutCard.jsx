@@ -30,10 +30,10 @@ const AboutCard = () => {
                     <p className='pt-5 text-lg font-semibold text-tertiary tracking-[.25em]'>Web Developer</p>
                 </div>
                 <div className='flex gap-6 bg-white h-12 items-center justify-center'>
-                    <a href="https://www.facebook.com/alkyleguevarra" target="_blank" className=' hover:opacity-75 ease-in duration-200'><FontAwesomeIcon icon={faFacebook} size='lg' style={{color: "#281a39",}} /></a>
-                    <a href="https://stackoverflow.com/users/20494288/alkyleee" target="_blank" className=' hover:opacity-75 ease-in duration-200'><FontAwesomeIcon icon={faStackOverflow} size="lg" style={{color: "#281a39",}} /></a>
-                    <a href="https://github.com/AlKyleee" target="_blank" className=' hover:opacity-75 ease-in duration-200'><FontAwesomeIcon icon={faGithub} size="lg" style={{color: "#281a39",}} /></a>
-                    <a href="https://www.linkedin.com/in/alkyleee/" target="_blank" className=' hover:opacity-75 ease-in duration-200'><FontAwesomeIcon icon={faLinkedinIn} style={{color: "#281a39",}} /></a>
+                    <a href="https://www.facebook.com/alkyleguevarra" target="_blank" className=' hover:scale-125 ease-in duration-200'><FontAwesomeIcon icon={faFacebook} size='lg' style={{color: "#281a39",}} /></a>
+                    <a href="https://stackoverflow.com/users/20494288/alkyleee" target="_blank" className=' hover:scale-125 ease-in duration-200'><FontAwesomeIcon icon={faStackOverflow} size="lg" style={{color: "#281a39",}} /></a>
+                    <a href="https://github.com/AlKyleee" target="_blank" className=' hover:scale-125 ease-in duration-200'><FontAwesomeIcon icon={faGithub} size="lg" style={{color: "#281a39",}} /></a>
+                    <a href="https://www.linkedin.com/in/alkyleee/" target="_blank" className=' hover:scale-125 ease-in duration-200'><FontAwesomeIcon icon={faLinkedinIn} style={{color: "#281a39",}} /></a>
                 </div>
             </div>
             <div className='flex flex-col pl-8 w-1/5'>
