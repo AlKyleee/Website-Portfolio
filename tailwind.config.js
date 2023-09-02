@@ -11,6 +11,19 @@ export default {
         "portfolio": "#150050",
       },
     },
+    screens: {
+      'sm': {'min': '320px', 'max': '480px'},
+      // phones
+
+      'md': {'min': '481px', 'max': '768px'},
+      // tables
+
+      'lg': {'min': '769px', 'max': ' 1024px'},
+      // laptops
+
+      'xl': {'min': '1025px', 'max': '1200px'},
+      // desktops
+    },
   },
   plugins: [],
 }
