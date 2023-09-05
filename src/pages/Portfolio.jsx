@@ -14,9 +14,9 @@ const Portfolio = () => {
     animate={{ opacity: 1 }}
     transition={{ duration: 1 }}
     >
-      <p className="text-6xl font-semibold text-tertiary">My Portfolio</p>
-      <p className="text-xl text-center font-semibold text-tertiary my-10 w-1/3">Welcome to my portfolio. Here you'll find a selection of my work. Explore my projects to learn more about what I do.</p>
-      <div className="grid grid-cols-3 grid-flow-row auto-rows-max gap-10 px-10">
+      <p className="text-6xl sm:text-5xl font-semibold text-tertiary">My Portfolio</p>
+      <p className="text-xl text-center font-semibold text-tertiary my-10 w-1/3 sm:w-4/5">Welcome to my portfolio. Here you'll find a selection of my work. Explore my projects to learn more about what I do.</p>
+      <div className="grid grid-cols-3 sm:grid-cols-1 grid-flow-row auto-rows-max gap-10 px-10">
         <PortfolioCard image={CryptoCause} projectTitle="CryptoCause" path="/portfolio/CryptoCause" />
         <PortfolioCard image={Ceap} projectTitle="CEAP Online Resources for Education (CORE)" path="/portfolio/Ceap" />
         <PortfolioCard image={CakesByLis} projectTitle="Cakes by LIS Inventory and Ordering System" path="/portfolio/CakesByLis" />

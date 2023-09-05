@@ -55,7 +55,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className={`sm:${menuOpen ? 'block' : 'hidden'} lg:hidden`}>
-        <ul className="font-medium flex sm:flex-col p-4 lg:space-x-8 text-center sm:bg-primary">
+        <ul className="font-medium flex sm:flex-col p-4 lg:space-x-8 text-center sm:bg-[#f4ece6] ">
           <li>
             <Link to="/" className="block py-2 pl-3 pr-4 text-tertiary font-thin" onClick={toggleMenu}>ABOUT ME</Link>
           </li>

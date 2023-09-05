@@ -75,13 +75,13 @@ const Contact = () => {
       theme="light"
       />
       <HeaderTitle title="Let's talk" />
-      <form className='flex flex-col w-1/3 m-20 bg-white p-14 drop-shadow-md shadow-[0_10px_16px_0_rgba(0,0,0,0.2),_0_6px_20px_0_rgba(0,0,0,0.19)]' onSubmit={sendEmail}>
-        <div className='flex gap-10'>
-          <span className="flex flex-col w-1/2">
+      <form className='flex flex-col w-1/3 sm:w-4/5 m-20 bg-white p-14 sm:p-8 drop-shadow-md shadow-[0_10px_16px_0_rgba(0,0,0,0.2),_0_6px_20px_0_rgba(0,0,0,0.19)]' onSubmit={sendEmail}>
+        <div className='flex sm:flex-col gap-10'>
+          <span className="flex flex-col w-1/2 sm:w-full">
             <label className='font-medium'>First Name</label>
             <input type="text" className='border-b-2 border-[#eae0da] p-3 focus:outline-0 focus:border-b-2 focus:border-black hover:border-b-2 hover:border-black' maxLength='20' onChange={e => {setFirstName(e.target.value)}} value={firstName} required />
           </span>
-          <span className="flex flex-col w-1/2">
+          <span className="flex flex-col w-1/2 sm:w-full">
             <label className='font-medium'>Last Name</label>
             <input type="text" className='border-b-2 border-[#eae0da] p-3 focus:outline-0 focus:border-b-2 focus:border-black hover:border-b-2 hover:border-black' maxLength='20' onChange={e => {setLastName(e.target.value)}} value={lastName} required />
           </span>

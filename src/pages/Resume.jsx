@@ -12,7 +12,7 @@ const Resume = () => {
     animate={{ opacity: 1 }}
     transition={{ duration: 1 }}
     >
-      <div className="flex flex-col w-1/2 justify-center">
+      <div className="flex flex-col w-1/2 sm:w-4/5 justify-center">
         <HeaderTitle title="Resume" />
         <div className="flex items-center justify-between mt-20">
           <p className="text-2xl font-medium text-tertiary">Education</p>
