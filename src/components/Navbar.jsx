@@ -36,7 +36,7 @@ const Navbar = () => {
               </svg>
             </button>
         </div>
-        <div className='hidden lg:block'>
+        <div className='sm:hidden md:hidden'>
           <ul className="font-medium flex sm:flex-col p-4 lg:space-x-8">
             <li>
               <Link to="/" className="block py-2 pl-3 pr-4 text-tertiary font-thin">ABOUT ME</Link>
