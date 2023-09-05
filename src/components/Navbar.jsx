@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white border-gray-200">
       <div className="w-full flex flex-wrap items-center justify-center sm:justify-between lg:gap-[65rem] my-5">
-        <Link to="/" className="flex items-center">
+        <Link to="/" className="flex items-center" onClick={() => setMenuOpen(false)}>
             <img src={Logo} className="w-40" alt="Kyle Logo" />
         </Link>
         <div className='hidden sm:block'>
