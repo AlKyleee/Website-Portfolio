@@ -18,11 +18,8 @@ export default {
       'md': {'min': '481px', 'max': '768px'},
       // tables
 
-      'lg': {'min': '769px', 'max': ' 1024px'},
-      // laptops
-
-      'xl': {'min': '1025px', 'max': '1200px'},
-      // desktops
+      'lg': {'min': '769px'},
+      // laptops/desktops
     },
   },
   plugins: [],
