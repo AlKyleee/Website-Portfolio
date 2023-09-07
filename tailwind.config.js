@@ -16,7 +16,7 @@ export default {
       // phones
 
       'md': {'min': '481px', 'max': '1023px'},
-      // tables
+      // tablets
 
       'lg': {'min': '1024px'},
       // laptop
