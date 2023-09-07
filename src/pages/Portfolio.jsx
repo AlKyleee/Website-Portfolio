@@ -9,7 +9,7 @@ import { motion } from 'framer-motion'
 
 const Portfolio = () => {
   return (
-    <motion.section id='' className='flex flex-col h-full w-full py-20 justify-center items-center'
+    <motion.section id='portfolio' className='flex flex-col h-full w-full py-20 justify-center items-center'
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     transition={{ duration: 1 }}
