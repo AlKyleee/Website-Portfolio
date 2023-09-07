@@ -11,11 +11,11 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white border-gray-200">
-      <div className="w-full flex flex-wrap items-center justify-center sm:justify-between lg:gap-[65rem] my-5">
+      <div className="w-full flex flex-wrap items-center justify-between px-24 sm:px-3 md:px-12 my-5">
         <Link to="/" className="flex items-center" onClick={() => setMenuOpen(false)}>
             <img src={Logo} className="w-40" alt="Kyle Logo" />
         </Link>
-        <div className='hidden sm:block'>
+        <div className='block lg:hidden'>
           <button
               onClick={toggleMenu}
               className="block text-tertiary p-2 focus:outline-none"
@@ -53,8 +53,8 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      <div className={`sm:${menuOpen ? 'block' : 'hidden'} lg:hidden`}>
-        <ul className="font-medium flex sm:flex-col p-4 lg:space-x-8 text-center sm:bg-[#f4ece6] ">
+      <div className={`sm:${menuOpen ? 'block' : 'hidden'} md:${menuOpen ? 'block' : 'hidden'} lg:hidden`}>
+        <ul className="font-medium flex flex-col lg:flex-row p-4 lg:space-x-8 text-center bg-[#f4ece6] lg:bg-white">
           <li>
             <Link to="/" className="block py-2 pl-3 pr-4 text-tertiary font-thin" onClick={toggleMenu}>ABOUT ME</Link>
           </li>

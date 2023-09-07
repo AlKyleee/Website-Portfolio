@@ -15,11 +15,17 @@ export default {
       'sm': {'min': '320px', 'max': '480px'},
       // phones
 
-      'md': {'min': '481px', 'max': '768px'},
+      'md': {'min': '481px', 'max': '1023px'},
       // tables
 
-      'lg': {'min': '769px'},
-      // laptops/desktops
+      'lg': {'min': '1024px'},
+      // laptop
+
+      'xl': {'min': '1280px'},
+      // desktop
+
+      '2xl': {'min': '1820px'},
+      
     },
   },
   plugins: [],
