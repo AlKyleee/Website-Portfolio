@@ -9,6 +9,7 @@ const Skillset = () => {
             <Skills language='HTML' experience='Experienced' />
             <Skills language='CSS' experience='Intermediate' />
             <Skills language='React' experience='Intermediate' />
+            <Skills language='Vue' experience='Intermediate' />
             <Skills language='Tailwind' experience='Intermediate' />
             <Skills language='JavaScript' experience='Intermediate' />
         </div>
