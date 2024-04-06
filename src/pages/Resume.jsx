@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../assets/files/Guevarra_CV.pdf'
+import CV from '../assets/files/Guevarra_Resume.pdf'
 import ResumeCard from '../components/ResumeCard'
 import Skillset from '../components/Skillset'
 import HeaderTitle from '../components/HeaderTitle'
