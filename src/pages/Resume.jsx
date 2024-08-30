@@ -22,7 +22,7 @@ const Resume = () => {
           <p className='text-lg font-semibold text-tertiary'>Studied Bachelor of Science in Information Technology for four years at the University of Santo Tomas. Graduated a Cum Laude and achieved multiple Dean's Lister.</p>
         </ResumeCard>
         <p className="mt-20 text-2xl font-medium">Experience</p>
-        <ResumeCard duration='Nov 2023 - Present' positionName='Junior Associate - Digital Marketing' companyDegree='Neolytix' location='Quezon City, Philippines'>
+        <ResumeCard duration='Nov 2023 - May 2024' positionName='Junior Associate - Digital Marketing' companyDegree='Neolytix' location='Quezon City, Philippines'>
           <p className='text-lg font-semibold text-tertiary'>Working as part of the Digital Marketing team to create websites for clients, mainly medical practices, to help them get traffic with the use of SEO, advertising, and more.</p>
         </ResumeCard>
         <ResumeCard duration='Jan 2023 - May 2023' positionName='Web Developer (Intern)' companyDegree='Syntactics Inc.' location='Cagayan de Oro, Philippines'>

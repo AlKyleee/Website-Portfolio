@@ -7,6 +7,7 @@ import Ceap from '../pages/projects/Ceap'
 import CakesByLis from '../pages/projects/CakesByLis'
 import AccInventorySystem from '../pages/projects/AccInventorySystem'
 import OrderingAccountSystem from '../pages/projects/OrderingAccountSystem'
+import PFP from '../pages/projects/PFP'
 import Contact from "../pages/Contact"
 import Error404 from "../pages/Error404"
 import { Route, Routes, useLocation } from "react-router-dom"
@@ -18,7 +19,8 @@ const AnimatedRoutes = () => {
         {name: 'CEAP', path: '/portfolio/Ceap', component: Ceap},
         {name: 'Cakes by LIS', path: '/portfolio/CakesByLis', component: CakesByLis},
         {name: 'Account and Inventory Management System', path: '/portfolio/AccountInventorySystem', component: AccInventorySystem},
-        {name: 'Ordering and Account Management System', path: '/portfolio/OrderingAccountSystem', component: OrderingAccountSystem}
+        {name: 'Ordering and Account Management System', path: '/portfolio/OrderingAccountSystem', component: OrderingAccountSystem},
+        {name: 'Pautricia Food Processing Corporation', path: '/portfolio/PFP', component: PFP}
     ]
 
     const location = useLocation()

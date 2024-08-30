@@ -5,6 +5,7 @@ import Ceap from '../assets/images/CEAP.jpg'
 import CakesByLis from '../assets/images/CakesByLis.jpg'
 import AccInventorySystem from '../assets/images/AccInventorySystem.jpg'
 import OrderingAccountSystem from '../assets/images/OrderingAccountSystem.jpg'
+import PFP from '../assets/images/pfp.jpg'
 import { motion } from 'framer-motion'
 
 const Portfolio = () => {
@@ -17,6 +18,7 @@ const Portfolio = () => {
       <p className="text-6xl sm:text-5xl font-semibold text-tertiary">My Portfolio</p>
       <p className="text-xl text-center font-semibold text-tertiary my-10 lg:w-1/2 xl:w-1/3 w-4/5">Welcome to my portfolio. Here you'll find a selection of my work. Explore my projects to learn more about what I do.</p>
       <div className="grid lg:grid-cols-3 grid-cols-1 grid-flow-row auto-rows-max gap-10 px-10">
+        <PortfolioCard image={PFP} projectTitle="Pautricia Food Processing Corporation" path="/portfolio/PFP" />
         <PortfolioCard image={CryptoCause} projectTitle="CryptoCause" path="/portfolio/CryptoCause" />
         <PortfolioCard image={Ceap} projectTitle="CEAP Online Resources for Education (CORE)" path="/portfolio/Ceap" />
         <PortfolioCard image={CakesByLis} projectTitle="Cakes by LIS Inventory and Ordering System" path="/portfolio/CakesByLis" />
