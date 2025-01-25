@@ -22,7 +22,7 @@ const Contact = () => {
   function sendEmail(e) {
     e.preventDefault();
     setLoading(true);
-    emailjs.send('service_1pzfzf9', 'template_oxvqwrr', templateParams, '-iUwA8BfXzqe4ipwe')
+    emailjs.send('service_9dgoaqi', 'template_jpgszwr', templateParams, '7IhqdDbIe9-_qXwsK')
       .then(function(response) {
         console.log('SUCCESS!', response.status, response.text);
         toast.success('Email sent successfully!', {
