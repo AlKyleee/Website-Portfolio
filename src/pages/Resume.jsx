@@ -22,6 +22,9 @@ const Resume = () => {
           <p className='text-lg font-semibold text-tertiary'>Studied Bachelor of Science in Information Technology for four years at the University of Santo Tomas. Graduated a Cum Laude and achieved multiple Dean's Lister.</p>
         </ResumeCard>
         <p className="mt-20 text-2xl font-medium">Experience</p>
+        <ResumeCard duration='Sept 2024 - Current' positionName='Sales and Marketing Admin' companyDegree='Ampers Design & Printing' location='Bibra Lake, Western Australia'>
+          <p className='text-lg font-semibold text-tertiary'>Sales and Marketing Admin for Ampers Design & Printing which includes managing their website, promotion of products, advertising, and more.</p>
+        </ResumeCard>
         <ResumeCard duration='Nov 2023 - May 2024' positionName='Junior Associate - Digital Marketing' companyDegree='Neolytix' location='Quezon City, Philippines'>
           <p className='text-lg font-semibold text-tertiary'>Working as part of the Digital Marketing team to create websites for clients, mainly medical practices, to help them get traffic with the use of SEO, advertising, and more.</p>
         </ResumeCard>
