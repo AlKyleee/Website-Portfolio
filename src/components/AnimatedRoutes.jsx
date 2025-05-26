@@ -8,6 +8,7 @@ import CakesByLis from '../pages/projects/CakesByLis'
 import AccInventorySystem from '../pages/projects/AccInventorySystem'
 import OrderingAccountSystem from '../pages/projects/OrderingAccountSystem'
 import PFP from '../pages/projects/PFP'
+import InvoiceGenerator from '../pages/projects/InvoiceApp'
 import Contact from "../pages/Contact"
 import Error404 from "../pages/Error404"
 import { Route, Routes, useLocation } from "react-router-dom"
@@ -20,7 +21,8 @@ const AnimatedRoutes = () => {
         {name: 'Cakes by LIS', path: '/portfolio/CakesByLis', component: CakesByLis},
         {name: 'Account and Inventory Management System', path: '/portfolio/AccountInventorySystem', component: AccInventorySystem},
         {name: 'Ordering and Account Management System', path: '/portfolio/OrderingAccountSystem', component: OrderingAccountSystem},
-        {name: 'Pautricia Food Processing Corporation', path: '/portfolio/PFP', component: PFP}
+        {name: 'Pautricia Food Processing Corporation', path: '/portfolio/PFP', component: PFP},
+        {name: 'Invoice Generator', path: '/portfolio/InvoiceGenerator', component: InvoiceGenerator}
     ]
 
     const location = useLocation()
